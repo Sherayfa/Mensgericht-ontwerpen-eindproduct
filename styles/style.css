@@ -1,0 +1,156 @@
+@font-face {
+    font-family:'ROMANTIC' ;
+    src: url(../fonts/ROMANTIC.TTF);
+    /* De font heb ik van https://www.dafont.com/ */
+}
+
+@font-face {
+    font-family:'AngelicWar' ;
+    src: url(../fonts/AngelicWar.ttf);
+     /* De font heb ik van https://www.dafont.com/ */
+}
+
+@font-face {
+    font-family:'DelRose';
+    src: url(../fonts/DelRose-Regular.ttf);
+     /* De font heb ik van https://www.dafont.com/ */
+}
+
+@font-face {
+    font-family:'SaintCarellClean' ;
+    src: url(../fonts/SaintCarellClean_PERSONAL_USE_ONLY.otf);
+     /* De font heb ik van https://www.dafont.com/ */
+}
+
+@font-face{
+    font-family:'Vogue';
+    src: url(../fonts/Vogue-Regular.otf);
+     /* De font heb ik van https://www.dafont.com/ */
+}
+
+body{
+	background-image: url(../images/fadedglitch.jpeg); 
+	background-size:cover;
+	background-position:center;
+    /* De background-image heb ik van https://stock.adobe.com/nl gehaald. */
+}
+
+body.pagina2{
+    background-image: url(../images/whitesmoke.jpeg)
+    /* De background-image heb ik van https://stock.adobe.com/nl gehaald. */
+    
+}
+
+body.bronnenlijst{
+	background-image: url(../images/boekenkast.jpeg);
+	background-size:cover;
+    /* De background-image heb ik van https://stock.adobe.com/nl gehaald. */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    /* De bron voor de gap heb ik van Angelo */
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em auto 5px;
+    text-align: center;
+    border-radius: 1em;
+    font-family: 'SainCarellClean';
+    font-size: 80px;
+    /* font-size bron: https://www.w3schools.com/css/css_font_size.asp; */
+}
+
+img{
+    width: 1150px;
+}
+
+h2{
+    font-family: 'DelRose';
+    font-size: 70px;
+}
+
+h2.pagina2{
+    font-family:'SaintCarellClean';
+    font-size: 70px;
+}
+
+h2.pagina3{
+    font-family: 'SaintCarellClean';
+    font-size: 70px;
+}
+
+section {
+	/* background-color:lightgrey; */
+    font-family:'Vogue';
+    font-size:45px;
+    color:azure;
+	padding: 50px;
+	margin: 10%;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.index{
+    background-color:black;
+    font-family:'Vogue';
+    font-size:45px;
+    color:white;
+	padding: 50px;
+	margin: 10%;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+section.pagina3{
+  font-family:'Vogue';
+    font-size:45px;
+    background-color: lightgray;
+    color:black;
+	padding: 50px;
+	margin: 10%;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+div{
+	background-color:lightgrey;
+	padding: 30px;
+	margin: 5%;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a{
+    padding: 1em;
+    background-color: gray;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+}
+
+nav a:hover{
+    background-color: darkblue;
+    color: white;
+    border-radius: 0.8em;
+    transition: all 0.3s ease-in-out;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: end;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+    border-radius: 0.5em;
+    font-family:'ROMANTIC';
+}
+
